@@ -1,8 +1,13 @@
 const express = require("express");
 const CryptoJS = require("crypto-js");
+require('dotenv').config();
 
 // insert your signing secret in the .env file
-const signingSecret = process.env.SIGNING_SECRET;
+const signingSecret = process.env.SIGNING_SECRET || '';
+
+if(!signingSecret || signingSecret === 'your secret here') {
+  console.warn('No signing secret defined! You can define the SIGNING_SECRET in your Heroku settings: https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard');
+}
 
 // start the express server
 const app = express();
@@ -14,6 +19,7 @@ app.use(
     verify: (req, res, buf) => {
       req.rawBody = buf;
     },
+    limit: '1mb',
     extended: true,
     type: "application/x-www-form-urlencoded"
   })
@@ -26,17 +32,17 @@ app.get("/*", (req, res) => {
 // listen for POST requests to '/my-endpoint'
 app.post("/my-endpoint", (req, res) => {
   // get signature header
-  const signature = req.header("Trengo-Signature");
+  const signature = req.header("Trengo-Signature") || '';
   // get raw request body
-  const payload = req.rawBody;
+  const payload = req.rawBody || '';
 
   // verify the signature
   if (verify(payload, signature, signingSecret)) {
     res.send("Valid signature");
     console.log("Do something with the body", req.body);
   } else {
-    res.send("Invalid signature");
-    console.log("invalid signature", signature);
+    res.status(401).send("Unauthorized");
+    console.error("invalid signature, did you correctly set your SIGNING_SECRET?");
   }
 });
 
