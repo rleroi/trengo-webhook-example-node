@@ -4,6 +4,7 @@
 
 
 Make sure you set the Trengo SIGNING_SECRET in the .env file or in the Heroku settings.
+
 (https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard).
 
 
