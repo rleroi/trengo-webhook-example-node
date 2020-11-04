@@ -1,0 +1,32 @@
+{
+  "name": "trengo-webhook-example-node",
+  "version": "1.0.0",
+  "description": "Trengo Webhook Example in Node.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rleroi/trengo-webhook-example-node"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "trengo",
+    "webhook",
+    "example"
+  ],
+  "license": "MIT"
+}
