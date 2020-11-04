@@ -6,7 +6,7 @@ const signingSecret = process.env.SIGNING_SECRET;
 
 // start the express server
 const app = express();
-app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 8080);
 
 // parse URLEncoded and save the raw body to req.rawBody
 app.use(
