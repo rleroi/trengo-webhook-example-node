@@ -3,8 +3,7 @@
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Frleroi%2Ftrengo-webhook-example-node%2Ftree%2Fmain)
 
 
-Make sure you set the Trengo SIGNING_SECRET in the .env file or in the Heroku settings.
-
+Make sure you set the Trengo SIGNING_SECRET in the .env file or in the Heroku settings.  
 (https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard).
 
 
