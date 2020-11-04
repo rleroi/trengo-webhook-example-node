@@ -1,0 +1,7 @@
+{
+  "name": "Trengo Webhook Example in Node.js",
+  "description": "Trengo Webhook Example in Node.js",
+  "repository": "https://github.com/rleroi/trengo-webhook-example-node",
+  "logo": "https://github.com/rleroi/trengo-webhook-example-node/raw/main/logo.png",
+  "keywords": ["node", "express", "trengo", "webhook"]
+}
