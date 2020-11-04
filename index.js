@@ -1,7 +1,7 @@
 const express = require("express");
 const CryptoJS = require("crypto-js");
 
-// insert your siging secret in the .env file
+// insert your signing secret in the .env file
 const signingSecret = process.env.SIGNING_SECRET;
 
 // start the express server
