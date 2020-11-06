@@ -1,5 +1,8 @@
 # An example client for Trengo webhooks in Node.js
+You can fork this branch to use it as a template for your own project.
 
+
+Or try it out instantly and make changes later:
 1. Deploy the example app.  
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Frleroi%2Ftrengo-webhook-example-node%2Ftree%2Fmain)
 
@@ -18,6 +21,8 @@ For example: http://trengo-webhook-example.herokuapp.com/my-endpoint
 
 ![image](https://user-images.githubusercontent.com/6817390/98356744-61ffd600-2024-11eb-8396-18675c611bd5.png)
 
+
+5. Fork this branch to create your own project.
 
 
 More information:
