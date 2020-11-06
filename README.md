@@ -2,8 +2,8 @@
 You can fork this branch to use it as a template for your own project.
 
 
-## Try it out instantly and make changes later:
-1. Deploy the example app.  
+## Try it out for free and make changes later
+1. Deploy the example app instantly for free.  
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Frleroi%2Ftrengo-webhook-example-node%2Ftree%2Fmain)
 
 
