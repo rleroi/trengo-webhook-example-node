@@ -18,7 +18,7 @@ For example: http://trengo-webhook-example.herokuapp.com/my-endpoint
 ![image](https://user-images.githubusercontent.com/6817390/98356744-61ffd600-2024-11eb-8396-18675c611bd5.png)
 
 
-5. Fork this branch to create your own project.
+5. Fork this branch to create your own project. After forking the 'Deploy to Heroku' button automatically deploys your own fork.
 
 
 ## More information
