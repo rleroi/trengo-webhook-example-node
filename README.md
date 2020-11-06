@@ -2,7 +2,7 @@
 You can fork this branch to use it as a template for your own project.
 
 
-Or try it out instantly and make changes later:
+## Try it out instantly and make changes later:
 1. Deploy the example app.  
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https%3A%2F%2Fgithub.com%2Frleroi%2Ftrengo-webhook-example-node%2Ftree%2Fmain)
 
@@ -25,7 +25,7 @@ For example: http://trengo-webhook-example.herokuapp.com/my-endpoint
 5. Fork this branch to create your own project.
 
 
-More information:
+## More information
 - https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard
 - https://developers.trengo.com/docs/webhooks
 
