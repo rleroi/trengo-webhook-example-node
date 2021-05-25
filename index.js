@@ -5,7 +5,7 @@ require('dotenv').config();
 // insert your signing secret in the .env file
 const signingSecret = process.env.SIGNING_SECRET || '';
 
-if(!signingSecret || signingSecret === 'your secret here') {
+if(!signingSecret) {
   console.warn('No signing secret defined! You can define the SIGNING_SECRET in your Heroku settings: https://devcenter.heroku.com/articles/config-vars#using-the-heroku-dashboard');
 }
 
