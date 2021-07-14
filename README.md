@@ -3,10 +3,11 @@
 
 
 ## Try it out for free
-1. You can fork this repository to use it as a template for your own project.
+1. You can use this repository as a template for your own project.
+[![image](https://user-images.githubusercontent.com/6817390/125620588-19b57089-5e70-4c43-bc9e-ca43bdb752ef.png)](https://github.com/rleroi/trengo-webhook-example-node/generate)
 
 
-2. After forking, deploy your project for free  
+2. After creating your repository, deploy your project for free  
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
