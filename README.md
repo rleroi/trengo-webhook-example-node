@@ -11,7 +11,7 @@
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 
-3. Create a new webhook on https://app.trengo.eu/admin/developers/webhooks and enter your app URL.  
+3. Create a new webhook on https://app.trengo.com/admin/developers/webhooks and enter your app URL.  
 For example: http://trengo-webhook-example.herokuapp.com/my-endpoint
 
 
